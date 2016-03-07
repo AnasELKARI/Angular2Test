@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./build",
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "exclude": [
+        "node_modules",
+        "bower_components",
+        "declarations/*.d.ts"
+    ],
+    "buildOnSave": true,
+    "files": [
+        "app/app.component.ts",
+        "app/main.ts",
+        "src/model/BotMessage.ts",
+        "src/model/Channel.ts",
+        "src/model/destination.ts",
+        "src/model/enums.ts",
+        "src/model/Message.ts",
+        "src/model/User.ts",
+        "src/model/UserMessage.ts",
+        "src/server.ts",
+        "typings/browser.d.ts",
+        "typings/browser/ambient/es6-shim/es6-shim.d.ts",
+        "typings/browser/ambient/jasmine/jasmine.d.ts",
+        "typings/main.d.ts",
+        "typings/main/ambient/es6-shim/es6-shim.d.ts",
+        "typings/main/ambient/jasmine/jasmine.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true,
+        "formatOnSave": true
+    }
+}
