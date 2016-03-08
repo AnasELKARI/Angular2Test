@@ -2,7 +2,7 @@
   "name": "chatAngular",
   "version": "1.0.0",
   "description": "chatAngular",
-  "main": "./web/index.html",
+  "main": "./index.html",
   "repository": {
     "url": "https://github.com/AnasELKARI/Angular2Test"
   },
