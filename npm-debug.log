@@ -7,7 +7,7 @@
 6 silly lifecycle chatAngular@1.0.0~prelite: no script for prelite, continuing
 7 info lifecycle chatAngular@1.0.0~lite: chatAngular@1.0.0
 8 verbose lifecycle chatAngular@1.0.0~lite: unsafe-perm in lifecycle true
-9 verbose lifecycle chatAngular@1.0.0~lite: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/magnusdev4/Projects/TestAngular/node_modules/.bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/home/magnusdev4/Projects/TestAngular/node_modules/.bin:/home/magnusdev4/.npm-global/bin:/home/magnusdev4/.npm-global/bin:/home/magnusdev4/.npm-global/bin:/home/magnusdev4/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+9 verbose lifecycle chatAngular@1.0.0~lite: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/magnusdev4/Projects/TestAngular/node_modules/.bin:/home/magnusdev4/.npm-global/bin:/home/magnusdev4/.npm-global/bin:/home/magnusdev4/.npm-global/bin:/home/magnusdev4/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 10 verbose lifecycle chatAngular@1.0.0~lite: CWD: /home/magnusdev4/Projects/TestAngular
 11 silly lifecycle chatAngular@1.0.0~lite: Args: [ '-c', 'lite-server' ]
 12 silly lifecycle chatAngular@1.0.0~lite: Returned: code: 1  signal: null
