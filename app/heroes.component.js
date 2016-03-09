@@ -29,9 +29,6 @@ System.register(['angular2/core', './hero-detail.component', './hero.service'], 
                     this._heroService = _heroService;
                     this.title = 'Tour of Heroes';
                 }
-                HeroesComponent.prototype.onSelect = function (hero) {
-                    this.selectedHero = hero;
-                };
                 HeroesComponent.prototype.getHeroes = function () {
                     var _this = this;
                     this._heroService.getHeroes().then(function (heroes) { return _this.heroes = heroes; });
@@ -39,10 +36,11 @@ System.register(['angular2/core', './hero-detail.component', './hero.service'], 
                 HeroesComponent.prototype.ngOnInit = function () {
                     this.getHeroes();
                 };
+                HeroesComponent.prototype.onSelect = function (hero) { this.selectedHero = hero; };
                 HeroesComponent = __decorate([
                     core_1.Component({
                         selector: 'my-heroes',
-                        template: "\n    <h1>{{title}}</h1>\n    <h2>My Heroes</h2>\n    <ul class=\"heroes\">\n      <li *ngFor=\"#hero of heroes\"\n        [class.selected]=\"hero === selectedHero\"\n        (click)=\"onSelect(hero)\">\n        <span class=\"badge\">{{hero.id}}</span> {{hero.name}}\n      </li>\n    </ul>\n    <div >\n        <my-hero-detail [hero]=\"selectedHero\"></my-hero-detail>\n    </div>\n  ",
+                        template: "\n    <h2>My Heroes</h2>\n    <ul class=\"heroes\">\n      <li *ngFor=\"#hero of heroes\"\n        [class.selected]=\"hero === selectedHero\"\n        (click)=\"onSelect(hero)\">\n        <span class=\"badge\">{{hero.id}}</span> {{hero.name}}\n      </li>\n    </ul>\n    <my-hero-detail [hero]=\"selectedHero\"></my-hero-detail>\n  ",
                         directives: [hero_detail_component_1.HeroDetailComponent]
                     }), 
                     __metadata('design:paramtypes', [hero_service_1.HeroService])
